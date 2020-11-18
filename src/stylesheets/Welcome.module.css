@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .title {
+  color: #1b2125;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+.wrapper p {
+  color: #788995;
+  font-size: 21px;
+  line-height: 24px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+.wrapper p span {
+  font-weight: 700;
+}
+
+.wrapper .image {
+  width: 100%;
+}
+
+.wrapper .image img {
+  width: 100%;
+}
