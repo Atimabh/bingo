@@ -1,0 +1,354 @@
+.finalForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+  padding-right: 60px;
+}
+
+.finalForm .formTitle {
+  margin-bottom: 20px;
+  color: #1b2125;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.finalForm .cardTitle {
+  margin-top: 40px;
+}
+
+.finalForm form {
+  width: 100%;
+}
+
+.finalForm form .formGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.finalForm form .formGroup .formSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 10px auto;
+}
+
+.finalForm form .formGroup .formSection label {
+  color: #717679;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.finalForm form .formGroup .formSection input {
+  border: 1px solid #dde3e8;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 90%;
+  padding: 18px 20px;
+  outline: none;
+  color: #909eab;
+}
+
+.finalForm form .formGroup .formSection input::placeholder {
+  color: #909eab;
+}
+
+.finalForm form .formGroup .formSection input:focus {
+  border: 1px solid #bdbfc1;
+}
+
+.finalForm form .cardSection {
+  margin-top: 10px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid #dde3e8;
+  border-radius: 3px;
+  padding: 50px 50px;
+}
+
+.finalForm form .cardSection .cardSelect {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.finalForm form .cardSection .cardSelect .cardRadio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.finalForm form .cardSection .cardSelect .cardRadio p {
+  color: #788995;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  margin-left: 32px;
+}
+
+.finalForm form .cardSection .cardSelect .cardImage {
+  height: fit-content;
+  margin-bottom: auto;
+  margin-top: 10px;
+}
+
+.finalForm form .cardSection .cardSelect .cardImage img {
+  width: 100px;
+}
+
+.finalForm form .cardSection .cardInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.finalForm form .cardSection .cardInput .number {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px auto;
+}
+
+.finalForm form .cardSection .cardInput .number svg {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  stroke: #788995;
+  stroke-width: 1px;
+}
+
+.finalForm form .cardSection .cardInput .number label {
+  color: #717679;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.finalForm form .cardSection .cardInput .number input {
+  border: 1px solid #dde3e8;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 100%;
+  padding: 18px 20px;
+  outline: none;
+  color: #909eab;
+}
+
+.finalForm form .cardSection .cardInput .number input::placeholder {
+  color: #909eab;
+}
+
+.finalForm form .cardSection .cardInput .number input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.finalForm form .cardSection .cardInput .number input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.finalForm form .cardSection .cardInput .number input:focus {
+  border: 1px solid #bdbfc1;
+}
+
+.finalForm form .cardSection .cardInput .formGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .name,
+.finalForm form .cardSection .cardInput .formGroup .expiry,
+.finalForm form .cardSection .cardInput .formGroup .cvv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .name label,
+.finalForm form .cardSection .cardInput .formGroup .expiry label,
+.finalForm form .cardSection .cardInput .formGroup .cvv label {
+  color: #717679;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .name input,
+.finalForm form .cardSection .cardInput .formGroup .expiry input,
+.finalForm form .cardSection .cardInput .formGroup .cvv input {
+  border: 1px solid #dde3e8;
+  border-radius: 3px;
+  font-size: 16px;
+  width: 100%;
+  padding: 18px 20px;
+  outline: none;
+  color: #909eab;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .name input::placeholder,
+.finalForm form .cardSection .cardInput .formGroup .expiry input::placeholder,
+.finalForm form .cardSection .cardInput .formGroup .cvv input::placeholder {
+  color: #909eab;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .name input::-webkit-outer-spin-button,
+.finalForm form .cardSection .cardInput .formGroup .expiry input::-webkit-outer-spin-button,
+.finalForm form .cardSection .cardInput .formGroup .cvv input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .name input::-webkit-inner-spin-button,
+.finalForm form .cardSection .cardInput .formGroup .expiry input::-webkit-inner-spin-button,
+.finalForm form .cardSection .cardInput .formGroup .cvv input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .name input:focus,
+.finalForm form .cardSection .cardInput .formGroup .expiry input:focus,
+.finalForm form .cardSection .cardInput .formGroup .cvv input:focus {
+  border: 1px solid #bdbfc1;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .name {
+  width: 55%;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .cvv {
+  max-width: 20%;
+  position: relative;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .cvv svg {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  stroke: #788995;
+  stroke-width: 1px;
+}
+
+.finalForm form .cardSection .cardInput .formGroup .expiry {
+  max-width: 20%;
+}
+
+.finalForm form .controller {
+  box-sizing: border-box;
+  width: 95%;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finalForm form .controller .back {
+  cursor: pointer;
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  color: #788995;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.finalForm form .controller .back svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.finalForm form .controller .purchase {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fc355c;
+  border-radius: 3px;
+  box-shadow: 0 2px 7px 0 rgba(120, 137, 149, 0.25);
+  width: 250px;
+  height: 55px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.finalForm .sectionFooter {
+  width: 100%;
+}
+
+.finalForm .sectionFooter p {
+  color: #7d8184;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+@media (max-width: 1366px) {
+  .finalForm p {
+    font-size: 22px;
+  }
+  .finalForm form .formGroup .formSection label {
+    font-size: 10px;
+  }
+  .finalForm form .formGroup .formSection input {
+    font-size: 14px;
+  }
+  .finalForm form .cardSection .cardSelect p {
+    font-size: 14px !important;
+  }
+  .finalForm form .cardInput .number label {
+    font-size: 10px !important;
+  }
+  .finalForm form .cardInput .number input {
+    font-size: 14px !important;
+  }
+  .finalForm form .cardInput .formGroup .name label,
+  .finalForm form .cardInput .formGroup .expiry label,
+  .finalForm form .cardInput .formGroup .cvv label {
+    font-size: 10px !important;
+  }
+  .finalForm form .cardInput .formGroup .name input,
+  .finalForm form .cardInput .formGroup .expiry input,
+  .finalForm form .cardInput .formGroup .cvv input {
+    font-size: 14px !important;
+  }
+  .finalForm form .controller .back {
+    font-size: 14px;
+  }
+  .finalForm form .controller .back svg {
+    width: 15px;
+    height: 15px;
+  }
+  .finalForm form .controller .purchase {
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+  }
+}

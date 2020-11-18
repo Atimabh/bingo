@@ -4,6 +4,11 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: avenir;
+    src: url(./AvenirFont.otf);
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: avenir, sans-serif;
 }

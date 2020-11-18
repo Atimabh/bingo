@@ -1,0 +1,320 @@
+.finalForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    padding-right: 60px;
+    .formTitle {
+        margin-bottom: 20px;
+        color: #1b2125;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: left;
+        font-family: sans-serif;
+    }
+    .cardTitle {
+        margin-top: 40px;
+    }
+    form {
+        width: 100%;
+        .formGroup {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            .formSection {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin: 10px auto;
+                label {
+                    color: #717679;
+                    font-size: 12px;
+                    font-weight: 600;
+                    line-height: 14px;
+                    text-align: left;
+                    margin-bottom: 5px;
+                }
+                input {
+                    border: 1px solid #dde3e8;
+                    border-radius: 3px;
+                    font-size: 16px;
+                    width: 90%;
+                    padding: 18px 20px;
+                    outline: none;
+                    color: #909eab;
+                    &::placeholder {
+                        color: #909eab;
+                    }
+                    &:focus {
+                        border: 1px solid #bdbfc1;
+                    }
+                }
+            }
+        }
+        .cardSection {
+            margin-top: 10px;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            border: 1px solid #dde3e8;
+            border-radius: 3px;
+            padding: 50px 50px;
+            .cardSelect {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .cardRadio {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    p {
+                        color: #788995;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: left;
+                        margin-left: 32px;
+                    }
+                }
+                .cardImage {
+                    height: fit-content;
+                    margin-bottom: auto;
+                    margin-top: 10px;
+                    img {
+                        width: 100px;
+                    }
+                }
+            }
+            .cardInput {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .number {
+                    position: relative;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin: 20px auto;
+                    svg {
+                        position: absolute;
+                        right: 20px;
+                        top: 30px;
+                        stroke: #788995;
+                        stroke-width: 1px;
+                    }
+                    label {
+                        color: #717679;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: 14px;
+                        text-align: left;
+                        margin-bottom: 5px;
+                    }
+                    input {
+                        border: 1px solid #dde3e8;
+                        border-radius: 3px;
+                        font-size: 16px;
+                        width: 100%;
+                        padding: 18px 20px;
+                        outline: none;
+                        color: #909eab;
+                        &::placeholder {
+                            color: #909eab;
+                        }
+                        &::-webkit-outer-spin-button {
+                            -webkit-appearance: none;
+                            margin: 0;
+                        }
+                        &::-webkit-inner-spin-button {
+                            -webkit-appearance: none;
+                            margin: 0;
+                        }
+                        &:focus {
+                            border: 1px solid #bdbfc1;
+                        }
+                    }
+                }
+                .formGroup {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .name,
+                    .expiry,
+                    .cvv {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        label {
+                            color: #717679;
+                            font-size: 12px;
+                            font-weight: 600;
+                            line-height: 14px;
+                            text-align: left;
+                            margin-bottom: 5px;
+                        }
+                        input {
+                            border: 1px solid #dde3e8;
+                            border-radius: 3px;
+                            font-size: 16px;
+                            width: 100%;
+                            padding: 18px 20px;
+                            outline: none;
+                            color: #909eab;
+                            &::placeholder {
+                                color: #909eab;
+                            }
+                            &::-webkit-outer-spin-button {
+                                -webkit-appearance: none;
+                                margin: 0;
+                            }
+                            &::-webkit-inner-spin-button {
+                                -webkit-appearance: none;
+                                margin: 0;
+                            }
+                            &:focus {
+                                border: 1px solid #bdbfc1;
+                            }
+                        }
+                    }
+                    .name {
+                        width: 55%;
+                    }
+                    .cvv {
+                        max-width: 20%;
+                        position: relative;
+                        svg {
+                            position: absolute;
+                            right: 20px;
+                            top: 30px;
+                            stroke: #788995;
+                            stroke-width: 1px;
+                        }
+                    }
+                    .expiry {
+                        max-width: 20%;
+                    }
+                }
+            }
+        }
+        .controller {
+            box-sizing: border-box;
+            width: 95%;
+            margin: 20px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .back {
+                cursor: pointer;
+                border: none;
+                background-color: #ffffff;
+                outline: none;
+                color: #788995;
+                font-size: 16px;
+                line-height: 19px;
+                text-align: left;
+                display: flex;
+                align-items: center;
+                svg {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                }
+            }
+            .purchase {
+                border: none;
+                outline: none;
+                cursor: pointer;
+                background-color: #fc355c;
+                border-radius: 3px;
+                box-shadow: 0 2px 7px 0 rgba(120, 137, 149, 0.25);
+                width: 250px;
+                height: 55px;
+                color: #ffffff;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    }
+    .sectionFooter {
+        width: 100%;
+        p {
+            color: #7d8184;
+            font-size: 12px;
+            line-height: 16px;
+            text-align: left;
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+    .finalForm {
+        p {
+            font-size: 22px;
+        }
+        form {
+            .formGroup {
+                .formSection {
+                    label {
+                        font-size: 10px;
+                    }
+                    input {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .cardSection {
+                .cardSelect {
+                    p {
+                        font-size: 14px !important;
+                    }
+                }
+            }
+            .cardInput {
+                .number {
+                    label {
+                        font-size: 10px !important;
+                    }
+                    input {
+                        font-size: 14px !important;
+                    }
+                }
+                .formGroup {
+                    .name,
+                    .expiry,
+                    .cvv {
+                        label {
+                            font-size: 10px !important;
+                        }
+                        input {
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+            .controller {
+                .back {
+                    font-size: 14px;
+                    svg {
+                        width: 15px;
+                        height: 15px;
+                    }
+                }
+                .purchase {
+                    width: 200px;
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
